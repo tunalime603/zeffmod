@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0q+61sgAf0y6cayUNvdLot/VlsLfnGRE7Fa/4eNdvennICVp0mIx559oONOUjOzmS7vRZmjQoV/YHZ1Rbs/1aQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ciara\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\zeffmod\\zeffmod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ciara\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

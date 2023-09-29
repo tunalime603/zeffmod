@@ -1,0 +1,109 @@
+Mods: {
+	zeffmod: {
+		Projectiles: {
+			throwingstick.DisplayName: throwingstick
+			minediamonds.DisplayName: minediamonds
+			hahaproj.DisplayName: hahaproj
+			guidepro.DisplayName: guidepro
+		}
+
+		NPCs: {
+			you.DisplayName: you
+			publicservent.DisplayName: publicservent
+			zeffgodgamer.DisplayName: Zeff God Gamer
+		}
+
+		Items: {
+			unofficialminecraftbook: {
+				Tooltip: ""
+				DisplayName: unofficialminecraftbook
+			}
+
+			stickwmagic: {
+				Tooltip: ""
+				DisplayName: stickwmagic
+			}
+
+			kitchenGun: {
+				Tooltip: ""
+				DisplayName: kitchen Gun
+			}
+
+			hahafunny: {
+				Tooltip:
+					'''
+					Ultra-High definition :))))
+					"what's balancing again?"
+					'''
+				DisplayName: hahafunny
+			}
+
+			guide: {
+				Tooltip: WIP
+				DisplayName: guide
+			}
+
+			toptenbannedweaponstoobrutalforwar: {
+				DisplayName: nokia multitool
+				Tooltip: WIP
+			}
+
+			tree: {
+				DisplayName: tree
+				Tooltip: WIP
+			}
+
+			WrizzPotion: {
+				DisplayName: W rizz Shake
+				Tooltip:
+					'''
+					become chad at the expense of your computer
+					"what's balancing again?"
+					'''
+			}
+
+			thezeffthingisreal: {
+				DisplayName: Zeff's Heaven Hat
+				Tooltip: WIP, like everything else
+			}
+
+			epicgamerBar: {
+				DisplayName: Bar of True Epic Gamers
+				Tooltip:
+					'''
+					You're losing your mind.
+					It's the new epic gamer bar from ohio.
+					emo thingie
+					This is a dream there is no way you you're holding it omg.
+					'''
+			}
+
+			pureWrizz: {
+				DisplayName: Drop of Pure W Rizz
+				Tooltip: A little piece of Zeff God's legacy lives with you now.
+			}
+
+			testarmor: {
+				Tooltip: ""
+				DisplayName: testarmor
+			}
+		}
+
+		Buffs: {
+			WRizz: {
+				Description: gives you chad stats
+				DisplayName: W Rizz
+			}
+
+			LRizz: {
+				Description: im so sorry
+				DisplayName: L Rizz
+			}
+
+			dumbfounded: {
+				Description: Mods.zeffmod.Buffs.dumbfounded.Description
+				DisplayName: dumbfounded
+			}
+		}
+	}
+}
