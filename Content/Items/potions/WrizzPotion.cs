@@ -15,7 +15,7 @@ namespace zeffmod.Content.Items.potions
         {
             get
             {
-                return "zeffmod/Assets/Items/Potions/" + this.Name;
+                return "zeffmod/Assets/Items/potions/" + this.Name;
             }
         }
         public override void SetStaticDefaults()

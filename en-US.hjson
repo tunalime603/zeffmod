@@ -11,6 +11,23 @@ Mods: {
 			you.DisplayName: you
 			publicservent.DisplayName: publicservent
 			zeffgodgamer.DisplayName: Zeff God Gamer
+
+			man: {
+				DisplayName: man
+
+				TownNPCMood: {
+					Content: I am content.
+					NoHome: I hate not having a home.
+					FarFromHome: I am too far from home.
+					LoveSpace: I love having so much space.
+					DislikeCrowded: I dislike how crowded I am.
+					HateCrowded: I hate how crowded I am.
+					LikeNPC_Princess: I like {NPCName}.
+					Princess_LovesNPC: I like {NPCName}.
+				}
+			}
+
+			evil_man.DisplayName: evil_man
 		}
 
 		Items: {
@@ -68,14 +85,8 @@ Mods: {
 			}
 
 			epicgamerBar: {
-				DisplayName: Bar of True Epic Gamers
-				Tooltip:
-					'''
-					You're losing your mind.
-					It's the new epic gamer bar from ohio.
-					emo thingie
-					This is a dream there is no way you you're holding it omg.
-					'''
+				DisplayName: Purified Epic Gamerite
+				Tooltip: yummy
 			}
 
 			pureWrizz: {
@@ -86,6 +97,21 @@ Mods: {
 			testarmor: {
 				Tooltip: ""
 				DisplayName: testarmor
+			}
+
+			murdersama: {
+				DisplayName: morasama
+				Tooltip:
+					'''
+					"their will be blood!"
+					ID and power-level locked
+					Prove your strength or have the correct user ID to wield this sword
+					'''
+			}
+
+			epicgamerore: {
+				DisplayName: Epic Gamerite Ore
+				Tooltip: very good tasting, exetremely (un)safe
 			}
 		}
 

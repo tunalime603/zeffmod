@@ -5,8 +5,9 @@ using Terraria.GameContent.Creative;
 using zeffmod.Projectiles;
 using System.Media;
 using Terraria.Audio;
-using zeffmod.tiles;
 using zeffmod.Content.Items.tiles;
+using zeffmod.Content.Items.Materials;
+using zeffmod.Assets.sounds;
 
 namespace zeffmod.Content.Items.Weapons.Melee
 {
@@ -22,11 +23,11 @@ namespace zeffmod.Content.Items.Weapons.Melee
         }
         public override void SetStaticDefaults()
         {
-            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 2;
         }
         public override void SetDefaults()
         {
-            Item.damage = 910;
+            Item.damage = 9100;
             Item.DamageType = DamageClass.Melee;
             Item.width = 40;
             Item.height = 40;
@@ -38,9 +39,13 @@ namespace zeffmod.Content.Items.Weapons.Melee
             Item.rare = ItemRarityID.Gray;
             Item.UseSound = SoundID.Item1;
             Item.autoReuse = true;
-            Item.maxStack = 1;
             Item.shoot = ModContent.ProjectileType<hahaproj>();
+            Item.maxStack = 1;
             Item.shootSpeed = 15;
+        }
+        public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone)
+        {
+            SoundEngine.PlaySound(new SoundStyle("zeffmod/Assets/sounds/pipe"));
         }
         public override void AddRecipes()
         {

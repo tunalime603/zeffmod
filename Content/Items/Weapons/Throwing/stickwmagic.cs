@@ -30,9 +30,9 @@ namespace zeffmod.Content.Items.Weapons.Throwing
             Item.useTime = 1;
             Item.useAnimation = 20;
             Item.useStyle = rnd.Next(1, 14);
-            Item.knockBack = 60000;
+            Item.knockBack = 600000;
             Item.sellPrice(0, 0, 0, 1);
-            Item.rare = 2;
+            Item.rare = 0;
             Item.UseSound = SoundID.DSTMaleHurt;
             Item.autoReuse = true;
             Item.maxStack = 9999;
@@ -43,7 +43,6 @@ namespace zeffmod.Content.Items.Weapons.Throwing
             Item.noMelee = true;
             Item.shootSpeed = 0;
         }
-
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();

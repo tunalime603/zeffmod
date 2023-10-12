@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 using Terraria.Audio;
-using zeffmod.sounds;
+using zeffmod.Assets.sounds;
 using Terraria.DataStructures;
 
 namespace zeffmod.Content.Items.Weapons.Melee

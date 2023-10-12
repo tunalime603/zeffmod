@@ -9,7 +9,8 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Content\Items\tiles\epicgamerBar.png" />
-    <None Remove="Projectiles\throwingstick.png" />
+    <None Remove="Content\NPCs\townNPCs\primor.png" />
+    <None Remove="Content\Projectiles\throwingstick.png" />
     <None Remove="TextFile1.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -17,7 +18,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\Items\Weapons\Summon\" />
+    <Folder Include="Assets\NPCs\evilman\" />
     <Folder Include="Content\Items\Weapons\Ranged\" />
     <Folder Include="othermodstuff\" />
+    <Folder Include="tiles\" />
   </ItemGroup>
 </Project>
