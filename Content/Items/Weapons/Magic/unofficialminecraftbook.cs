@@ -4,7 +4,7 @@ using Terraria.GameContent.Creative;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
-using zeffmod.Projectiles;
+using zeffmod.Content.Projectiles.Magic;
 
 namespace zeffmod.Content.Items.Weapons.Magic
 {

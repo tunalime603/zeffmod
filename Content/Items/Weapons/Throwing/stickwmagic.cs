@@ -2,24 +2,18 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
-using zeffmod.Projectiles;
 using System;
+using zeffmod.Content.Projectiles.Throwing;
 
 namespace zeffmod.Content.Items.Weapons.Throwing
 {
     public class stickwmagic : ModItem
     {
-        public override string Texture
-        {
-            get
-            {
-                return "zeffmod/Assets/Items/Weapons/Throwing/" + this.Name;
-            }
-        }
+        public override string Texture => "zeffmod/Assets/Items/Weapons/Throwing/" + this.Name;
         Random rnd = new Random();
         public override void SetStaticDefaults()
         {
-            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[base.Type] = 1;
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[base.Type] = 6900;
         }
         public override void SetDefaults()
         {
@@ -30,7 +24,7 @@ namespace zeffmod.Content.Items.Weapons.Throwing
             Item.useTime = 1;
             Item.useAnimation = 20;
             Item.useStyle = rnd.Next(1, 14);
-            Item.knockBack = 600000;
+            Item.knockBack = 60000000;
             Item.sellPrice(0, 0, 0, 1);
             Item.rare = 0;
             Item.UseSound = SoundID.DSTMaleHurt;

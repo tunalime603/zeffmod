@@ -2,7 +2,6 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
-using zeffmod.Projectiles;
 using System.Media;
 using Terraria.Audio;
 using zeffmod.Content.Items.tiles;
@@ -27,7 +26,7 @@ namespace zeffmod.Content.Items.Weapons.Melee
         }
         public override void SetDefaults()
         {
-            Item.damage = int.MaxValue;
+            Item.damage = 3001;
             Item.DamageType = DamageClass.Melee;
             Item.width = 56;
             Item.height = 128;
@@ -44,7 +43,7 @@ namespace zeffmod.Content.Items.Weapons.Melee
         }
         public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone)
         {
-            
+            SoundEngine.PlaySound(new SoundStyle("zeffmod/Assets/sounds/what"));
         }
     }
 }

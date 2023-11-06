@@ -8,9 +8,29 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <AdditionalFiles Remove="Assets\NPCs\NewFolder1\**" />
+    <AdditionalFiles Remove="Assets\NPCs\NewFolder\**" />
+    <Compile Remove="Assets\NPCs\NewFolder1\**" />
+    <Compile Remove="Assets\NPCs\NewFolder\**" />
+    <EmbeddedResource Remove="Assets\NPCs\NewFolder1\**" />
+    <EmbeddedResource Remove="Assets\NPCs\NewFolder\**" />
+    <None Remove="Assets\NPCs\NewFolder1\**" />
+    <None Remove="Assets\NPCs\NewFolder\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Remove="Content\Projectiles\Minions\flyingCat.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Content\Projectiles\Throwing\guidepro - Copy.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Assets\NPCs\theoder\theoder_Head_Boss.png" />
+    <None Remove="Assets\NPCs\TownNPCs\New Bitmap Image.bmp" />
     <None Remove="Content\Items\tiles\epicgamerBar.png" />
-    <None Remove="Content\NPCs\townNPCs\primor.png" />
+    <None Remove="Content\NPCs\townNPCs\man.png" />
+    <None Remove="Content\Projectiles\Minions\flyingCat.txt" />
     <None Remove="Content\Projectiles\throwingstick.png" />
+    <None Remove="description_workshop.txt" />
     <None Remove="TextFile1.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -19,8 +39,11 @@
   <ItemGroup>
     <Folder Include="Assets\Items\Weapons\Summon\" />
     <Folder Include="Assets\NPCs\evilman\" />
+    <Folder Include="Content\Items\other\bossSummons\" />
+    <Folder Include="Content\Items\Weapons\Summoning\" />
     <Folder Include="Content\Items\Weapons\Ranged\" />
+    <Folder Include="Content\Projectiles\Minions\" />
+    <Folder Include="Content\Projectiles\Ranged\" />
     <Folder Include="othermodstuff\" />
-    <Folder Include="tiles\" />
   </ItemGroup>
 </Project>

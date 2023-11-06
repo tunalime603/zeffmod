@@ -2,12 +2,12 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
-using zeffmod.Projectiles;
 using System.Media;
 using Terraria.Audio;
 using zeffmod.Content.Items.tiles;
 using zeffmod.Content.Items.Materials;
 using zeffmod.Assets.sounds;
+using zeffmod.Content.Projectiles.Melee;
 
 namespace zeffmod.Content.Items.Weapons.Melee
 {

@@ -2,19 +2,13 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
-using zeffmod.Projectiles;
+using zeffmod.Content.Projectiles.Throwing;
 
 namespace zeffmod.Content.Items.Weapons.Throwing
 {
     public class guide : ModItem
     {
-        public override string Texture
-        {
-            get
-            {
-                return "zeffmod/Assets/Items/Weapons/Throwing/" + this.Name;
-            }
-        }
+        public override string Texture => "zeffmod/Assets/Items/Weapons/Throwing/" + this.Name;
         public override void SetStaticDefaults()
         {
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[base.Type] = 1;

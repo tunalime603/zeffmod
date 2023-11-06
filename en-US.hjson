@@ -5,6 +5,8 @@ Mods: {
 			minediamonds.DisplayName: minediamonds
 			hahaproj.DisplayName: hahaproj
 			guidepro.DisplayName: guidepro
+			pointofdamascusproj.DisplayName: pointofdamascusproj
+			throwingknifeproj.DisplayName: throwingknifeproj
 		}
 
 		NPCs: {
@@ -16,18 +18,19 @@ Mods: {
 				DisplayName: man
 
 				TownNPCMood: {
-					Content: I am content.
-					NoHome: I hate not having a home.
-					FarFromHome: I am too far from home.
-					LoveSpace: I love having so much space.
-					DislikeCrowded: I dislike how crowded I am.
-					HateCrowded: I hate how crowded I am.
-					LikeNPC_Princess: I like {NPCName}.
-					Princess_LovesNPC: I like {NPCName}.
+					Content: nothing new.
+					NoHome: do you have any shelter.
+					FarFromHome: how tf did i get here.
+					LoveSpace: i can't remember the last time I had space to stretch out my legs.
+					DislikeCrowded: it isn't as bad a "WOAAOAOAOAH STORY OF UNDERTALE".
+					HateCrowded: this is more crowded than "WOAAOAOAOAH STORY OF UNDERTALE". and that was manhatten levels of crowded.
+					LikeNPC_Princess: the princess is ok.
+					Princess_LovesNPC: I can't think of anything good about {NPCName}, but I know he is a good person.
 				}
 			}
 
-			evil_man.DisplayName: evil_man
+			evil_man.DisplayName: EVIL man
+			theoder.DisplayName: theoder
 		}
 
 		Items: {
@@ -47,11 +50,7 @@ Mods: {
 			}
 
 			hahafunny: {
-				Tooltip:
-					'''
-					Ultra-High definition :))))
-					"what's balancing again?"
-					'''
+				Tooltip: Ultra-High definition :))))
 				DisplayName: hahafunny
 			}
 
@@ -72,15 +71,11 @@ Mods: {
 
 			WrizzPotion: {
 				DisplayName: W rizz Shake
-				Tooltip:
-					'''
-					become chad at the expense of your computer
-					"what's balancing again?"
-					'''
+				Tooltip: become chad at the expense of your computer
 			}
 
 			thezeffthingisreal: {
-				DisplayName: Zeff's Heaven Hat
+				DisplayName: Zeff God's Heaven Hat
 				Tooltip: WIP, like everything else
 			}
 
@@ -112,6 +107,21 @@ Mods: {
 			epicgamerore: {
 				DisplayName: Epic Gamerite Ore
 				Tooltip: very good tasting, exetremely (un)safe
+			}
+
+			pointofdamascus: {
+				DisplayName: Point Of Damascus
+				Tooltip:
+					'''
+					After so long, the green and white paint has not faded in the slightest.
+					You can feel the previous owner smiling upon you.
+					im not a dream stan i swear
+					'''
+			}
+
+			throwingknife: {
+				Tooltip: A knife originating from WOAAOAOAOAH STORY OF UNDERTALE that was used by evil man once
+				DisplayName: throwing knife
 			}
 		}
 
