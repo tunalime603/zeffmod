@@ -11,8 +11,9 @@ using zeffmod.Content.Items.tiles;
 
 namespace zeffmod.Content.Items.other.bossSummons
 {
-    public class theoder : ModItem
+    public class theodersummon : ModItem
     {
+        public override string Texture => "zeffmod/Assets/Items/other/bossSummons/" + this.Name;
         public override void SetStaticDefaults()
         {
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;

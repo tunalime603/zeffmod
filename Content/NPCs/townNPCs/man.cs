@@ -23,7 +23,7 @@ namespace zeffmod.Content.NPCs.townNPCs
         {
             // DisplayName automatically assigned from .lang files, but the commented line below is the normal approach.
             // DisplayName.SetDefault("Example Person");
-            Main.npcFrameCount[NPC.type] = 2;
+            Main.npcFrameCount[NPC.type] = 1;
             NPCID.Sets.DangerDetectRange[NPC.type] = 700;
             NPCID.Sets.HatOffsetY[NPC.type] = 4;
         }

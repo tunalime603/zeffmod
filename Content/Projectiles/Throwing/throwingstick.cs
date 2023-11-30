@@ -10,13 +10,7 @@ namespace zeffmod.Content.Projectiles.Throwing
 {
     public class throwingstick : ModProjectile
     {
-        public override string Texture
-        {
-            get
-            {
-                return "zeffmod/Assets/Projectiles/" + Name;
-            }
-        }
+        public override string Texture => "zeffmod/Assets/Projectiles/" + Name;
         public override void SetStaticDefaults()
         {
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 5;

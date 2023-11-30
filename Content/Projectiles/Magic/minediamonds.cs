@@ -11,13 +11,7 @@ namespace zeffmod.Content.Projectiles.Magic
 {
     public class minediamonds : ModProjectile
     {
-        public override string Texture
-        {
-            get
-            {
-                return "zeffmod/Assets/Projectiles/" + Name;
-            }
-        }
+        public override string Texture => "zeffmod/Assets/Projectiles/" + Name;
         public override void SetDefaults()
         {
             Projectile.width = 19;

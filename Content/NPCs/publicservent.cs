@@ -21,7 +21,7 @@ namespace zeffmod.Content.NPCs
             {
                 BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Sky,
                 BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Surface,
-                new FlavorTextBestiaryInfoElement("some guy who has magic powers and a messaiah complex. he decided to do some minor trolling but then you killed his uncle you little devious little something.")
+                new FlavorTextBestiaryInfoElement("some guy who has magic powers and a messaiah complex. he wanted to \"save\" your terraria world but then you killed his uncle you little devious little something.")
             });
         }
         public override void SetDefaults()

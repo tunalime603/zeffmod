@@ -10,13 +10,7 @@ namespace zeffmod.Content.Projectiles.Throwing
 {
     public class guidepro : ModProjectile
     {
-        public override string Texture
-        {
-            get
-            {
-                return "zeffmod/Assets/Projectiles/" + Name;
-            }
-        }
+        public override string Texture => "zeffmod/Assets/Projectiles/" + Name;
         public override void SetDefaults()
         {
             Projectile.width = 19;

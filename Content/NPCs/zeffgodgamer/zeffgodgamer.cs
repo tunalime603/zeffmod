@@ -8,18 +8,12 @@ namespace zeffmod.Content.NPCs.zeffgodgamer
 {
     public class zeffgodgamer : ModNPC
     {
-        public override string Texture
-        {
-            get
-            {
-                return "zeffmod/Assets/NPCs/zeffgodgamer/" + this.Name;
-            }
-        }
+        public override string Texture => "zeffmod/Assets/NPCs/zeffgodgamer/" + this.Name;
         public override void SetDefaults()
         {
             NPC.noGravity = true;
             NPC.noTileCollide = true;
-            NPC.dontTakeDamage = true;
+            NPC.dontTakeDamage = false;
             NPC.width = 90;
             NPC.height = 93;
             NPC.damage = 2;

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("zeffmod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96be898fd260729992f1f66c3e927ca22a4af769")]
 [assembly: System.Reflection.AssemblyProductAttribute("zeffmod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("zeffmod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
